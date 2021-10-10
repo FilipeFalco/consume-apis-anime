@@ -2,15 +2,17 @@
   "name": "consume-apis-anime",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "type":"module",
+  "main": "src/app.js",
+  "type": "module",
   "dependencies": {
     "axios": "^0.22.0",
-    "dotenv": "^10.0.0"
+    "json2csv": "^5.0.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --es-module-specifier-resolution=node src/app.js"
   },
   "repository": {
     "type": "git",
