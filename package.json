@@ -6,13 +6,11 @@
   "type": "module",
   "dependencies": {
     "axios": "^0.22.0",
-    "json2csv": "^5.0.6"
+    "csvjson": "^5.1.0"
   },
-  "devDependencies": {
-    "eslint": "^8.0.0"
-  },
+  "devDependencies": {},
   "scripts": {
-    "dev": "node --es-module-specifier-resolution=node src/app.js"
+    "dev": "node src/app.js"
   },
   "repository": {
     "type": "git",
